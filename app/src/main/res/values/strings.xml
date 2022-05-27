@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Doodlz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_fragment1">MainActivityFragment1</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="button_erase">Borrar Imagen</string>
+    <string name="button_set_color">Establecer Color</string>
+    <string name="button_set_line_width">Establecer Grosor</string>
+    <string name="line_imageview_description">Esto despliega el grosor de lìnea</string>
+    <string name="label_alpha">Alpha</string>
+    <string name="label_red">Rojo</string>
+    <string name="label_green">Verde</string>
+    <string name="label_blue">Azul</string>
+    <string name="menuitem_color">Color</string>
+    <string name="menuitem_delete">Borrar Dibujo</string>
+    <string name="menuitem_line_width">Grsor de Lìnea</string>
+    <string name="menuitem_save">Guardar</string>
+    <string name="menuitem_print">Imprimir</string>
+    <string name="message_erase">¿Borrar Dibujo?</string>
+    <string name="message_error_saving">Hubo un error borrando imagen</string>
+    <string name="message_saved">Tu dibujo guardado puede se puede acceder por la app de Camara
+        seleccionando las carpetas del dispositivo desde el menu de la app</string>
+    <string name="message_error_printing">Tu dispositivo no soporta imprimir</string>
+    <string name="permission_explanation">Para guardar una imagen,
+        se requiere permisos para guardar en la memoria externa</string>
+    <string name="title_color_dialog">Elige el Color</string>
+    <string name="title_line_width_dialog">Escoge el grosor de Lìnea</string>
+
+</resources>
