@@ -164,7 +164,13 @@ public class MainActivityFragment extends Fragment {
             case R.id.print:
                 doodleView.printImage();//imprimir las imagenes actuales
                 return true;// consume el evento del menú
-
+            case R.id.salir:
+                try {
+                    finalize();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
+                }
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

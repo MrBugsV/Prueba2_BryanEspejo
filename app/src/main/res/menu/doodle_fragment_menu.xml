@@ -32,4 +32,9 @@
         android:icon="@drawable/ic_print_24dp"
         app:showAsAction="ifRoom">
     </item>
+    <item
+        android:id="@+id/salir"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/btn_contextmenu_salir"
+        app:showAsAction="ifRoom"></item>
 </menu>

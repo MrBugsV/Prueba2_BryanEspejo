@@ -18,6 +18,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import java.security.cert.PolicyNode;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,6 +36,7 @@ public class DoodleView extends View {
     private final Map<Integer, Path> pathMap = new HashMap<>();
     private final Map<Integer, Point> previousPointMap = new HashMap<>();
 
+    View ingreso;
 
     public DoodleView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
